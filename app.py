@@ -48,6 +48,10 @@ def find_answer(question):
 
     heading, content = sections[most_similar_index]
 
+    if not content.strip():
+        content = "Leider konnte keine spezifische Information zu deiner Frage gefunden werden. Hier ist ein allgemeiner Hinweis: Bitte präzisiere deine Frage oder stelle sie anders."
+
+
     intro_phrases = [
         f"Basierend auf der Frage zur Überschrift '{heading}', hier ist was ich gefunden habe:",
         f"Zum Thema '{heading}' kann ich Folgendes sagen:",
