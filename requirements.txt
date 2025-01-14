@@ -1,8 +1,7 @@
-Flask==2.1.2
-python-docx==0.8.11
-scikit-learn==1.0.2
-gunicorn==20.1.0
-certifi==2021.10.8
-numpy==1.21.2
-cython==0.29.24
+Flask
+python-docx
+scikit-learn
+gunicorn
+numpy
+cython
 
